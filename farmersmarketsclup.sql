@@ -1,0 +1,1 @@
+Delete from Farmers_Markets_Payments where FMID = 1012768;Delete from Farmers_Markets_Products where FMID = 1012768;Delete from Farmers_Markets_Seasons where FMID = 1012768;Delete from Farmers_Markets_Info where FMID = 1012768;
