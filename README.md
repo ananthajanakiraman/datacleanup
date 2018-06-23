@@ -212,13 +212,9 @@ Following is the SQL query I executed in the Farmers\_Markets\_Info table to ide
 Query-1:
 
 Select a.fmid, a.marketname, a.street,a.city, a.county, a.state, a,zip,
-
 b.fmid,  b.marketname, b.street, b.city, b.county, b.state,b,zip
-
 from farmers\_markets\_info a,  farmers\_markets\_info b
-
 where a.fmid &lt;&gt; b.fmid  and a.marketname = b.marketname  and b.street = a.street
-
 and b.city = a.city and a.zip = b.zip and a.county = b.county and a.state = b.state;
 
 The above query resulted in 1 IC violation on FMIDs – 1012768, 1017955.
