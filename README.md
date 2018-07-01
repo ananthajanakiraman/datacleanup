@@ -73,15 +73,15 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 
 1. Clustering operation with keying function as &quot;fingerprint&quot; and method as &quot;Key Collision&quot;. Screenshot with examples provided below.
 
-<img src="fig1.png">
+<img src="Images/fig1.png">
 
 2. Clustering operation with keying function as &quot;ngram-fingerprint&quot; and method as &quot;Key Collision&quot;. Screenshot with examples provided below.
 
-<img src="fig2.png">
+<img src="Images/fig2.png">
 
 3. Clustering operation with keying function as &quot;fingerprint&quot; and method as &quot;cologne-phonetic&quot;. Screenshot with examples provided below.
 
-<img src="fig3.png">
+<img src="Images/fig3.png">
 
 4. Changed the values to all uppercase in marketname field.
 5. Leading and trailing spaces trim transformation was applied to all values in the marketname field.
@@ -97,11 +97,11 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 
 1. Clustering operation with keying function as &quot;fingerprint&quot; and method as &quot;Key Collision&quot;. Screenshot with examples provided below.
 
-<img src="fig4.png">
+<img src="Images/fig4.png">
 
 2. Clustering operation with keying function as &quot;ngram-fingerprint&quot; and method as &quot;Key Collision&quot;. Screenshot with examples provided below.
 
-<img src="fig5.png">
+<img src="Images/fig5.png">
 
 3. Leading and trailing spaces trim transformation was applied to all values in the street field.
 4. Collapse continuous whitespace transformation was applied to all values in the street field.
@@ -118,11 +118,11 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 
 1. Clustering operation with keying function as &quot;fingerprint&quot; and method as &quot;Key Collision&quot;. Screenshot with examples provided below.
 
-<img src="fig6.png">
+<img src="Images/fig6.png">
 
 2. Clustering operation with keying function as &quot;ngram-fingerprint&quot; and method as &quot;Key Collision&quot;. Screenshot with examples provided below.
 
-<img src="fig7.png">
+<img src="Images/fig7.png">
 
 3. Leading and trailing spaces trim transformation was applied to all values in the city field.
 4. Collapse continuous whitespace transformation was applied to all values in the city field.
@@ -132,7 +132,7 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 
 1. Clustering operation with keying function as &quot;ngram-fingerprint&quot; and method as &quot;Key Collision&quot;. Screenshot with examples provided below.
 
-<img src="fig8.png">
+<img src="Images/fig8.png">
 
 2. Changed the values in the county field to all uppercase.
 
@@ -160,7 +160,7 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 - Trimmed leading and trailing spaces in the Season1\_Start\_Date and converted the data type to Text.
 - Trimmed leading and trailing spaces in the Season1\_End\_Date and converted the data type to Text.
 
-<img src="fig9.png">
+<img src="Images/fig9.png">
 
 3.11 **Transformation on Season2Date field in the dataset:**
 
@@ -168,7 +168,7 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 2. Trimmed leading and trailing spaces in the Season2\_Start\_Date and converted the data type to Text.
 3. Trimmed leading and trailing spaces in the Season2\_End\_Date and converted the data type to Text.
 
-<img src="fig10.png">
+<img src="Images/fig10.png">
 
 3.12 **Transformation on Season3Date field in the dataset:**
 
@@ -176,7 +176,7 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 2. Trimmed leading and trailing spaces in the Season3\_Start\_Date and converted the data type to Text.
 3. Trimmed leading and trailing spaces in the Season3\_End\_Date and converted the data type to Text.
 
-<img src="fig11.png">
+<img src="Images/fig11.png">
 
 3.13 **Transformation on Season4Date field in the dataset :**
 
@@ -184,7 +184,7 @@ maple, meat, nursery, nuts, plants, poultry, prepared, soap, trees, wine, coffee
 2. Trimmed leading and trailing spaces in the Season4\_Start\_Date and converted the data type to Text.
 3. Trimmed leading and trailing spaces in the Season4\_End\_Date and converted the data type to Text.
 
-<img src="fig12.png">
+<img src="Images/fig12.png">
 
 3.14 **Transformation on fields x and y in the dataset :**
 
@@ -207,29 +207,29 @@ The OpenRefine cleaned Farmers Markets dataset was loaded into a SQLite database
 
 **5.2 ER Diagram :**
 
-<img src="fig13.png">
+<img src="Images/fig13.png">
 
 **5.3 Data Definition Language :**
 
 **5.3.1 Table Definition for Farmers\_Markets\_Info :**
 
-<img src="fig14.png">
+<img src="Images/fig14.png">
 
 **5.3.2 Table Definition for Farmers\_Markets\_Payments :**
 
-<img src="fig15.png">
+<img src="Images/fig15.png">
 
 **5.3.3 Table Definition for Farmers\_Markets\_Products :**
 
-<img src="fig16.png">
+<img src="Images/fig16.png">
 
 **5.3.4 Table Definition for Farmers\_Markets\_Seasons :**
 
-<img src="fig17.png">
+<img src="Images/fig17.png">
 
 **5.3.5 Integrity check on the database after cleanups:**
 
-<img src="fig18.png">
+<img src="Images/fig18.png">
 
 **6. Integrity Constraints :**
 
@@ -281,7 +281,7 @@ The end to end workflow was created using the YesWorkflow tool. The chart was cr
 
 The workflow uses the farmersmarkets.csv file and OpenRefine&#39;s json file as input and the run operation produces a cleaned up version of the csv file. The cleaned up file is then imported into SQLite and additional cleanup is performed.
 
-<img src="fig19.png">
+<img src="Images/fig19.png">
 
 **8. Observations and Conclusions :**
 
